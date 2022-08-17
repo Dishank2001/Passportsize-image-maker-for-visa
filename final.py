@@ -3,7 +3,8 @@ import numpy as np
 from matplotlib import pyplot as plt
 haar_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 
-img=cv2.imread('images/dishank1.jpg')
+# img=cv2.imread('bacha.jpg')
+img=cv2.imread('chasmis.jpg')
 faces=haar_cascade.detectMultiScale(img,1.1,9)
 
 
