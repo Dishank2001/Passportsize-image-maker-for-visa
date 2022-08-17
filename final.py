@@ -4,9 +4,6 @@ from matplotlib import pyplot as plt
 haar_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 
 img=cv2.imread('images/dishank1.jpg')
-# img=cv2.imread('dishank.jpg')
-# img=cv2.imread('dishank1.jpg')
-# img=cv2.resize(img,(850,1300))
 faces=haar_cascade.detectMultiScale(img,1.1,9)
 
 
